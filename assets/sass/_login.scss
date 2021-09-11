@@ -1,0 +1,54 @@
+.login {
+    width: 375px;
+    height: 812px;
+
+    &-wellcom {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        img {
+            z-index: 1;
+            margin-bottom: -40px;
+        }
+        .btn-login {
+            width: 100%;
+            background-color: #1C162E;
+            height: 196px;
+            border-radius: 25px 25px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+            a {
+                background: $secondary-color;
+                color: #fff;
+            }
+        }
+
+        .textbox {
+            position: absolute;
+            right: 38px;
+            top: 93px;
+            width: 185px;
+            text-align: right;
+
+            h6 {
+                color: #1C162E;
+                font-size: 16px;
+            }
+
+            h3 {
+                color: #1AD5AD;
+                font-size: 33px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 14px;
+                color: #C6C4CA;
+                line-height: 24px;
+            }
+        }
+    }
+}
